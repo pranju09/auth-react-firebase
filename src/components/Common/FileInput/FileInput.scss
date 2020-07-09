@@ -1,0 +1,20 @@
+.profile-upload {
+  position: relative;
+
+  .img-container {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .file-input {
+    cursor: pointer;
+    opacity: 0;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: -1px;
+    border-radius: 50px;
+    left: 0;
+  }
+}

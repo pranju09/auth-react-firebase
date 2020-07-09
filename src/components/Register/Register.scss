@@ -1,0 +1,37 @@
+.register-section {
+  .current-location {
+    width: 270px;
+  }
+  .user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-img {
+    margin: 0 30px 0 0;
+  }
+  .logout-btn {
+    font-weight: normal;
+    font-size: 13px;
+    i {
+      margin-right: 3px;
+    }
+  }
+  .form-footer {
+    text-align: left !important;
+  }
+
+  @media (min-width: 768px) {
+    .user-form {
+      flex-direction: row !important;
+      .form-group {
+        margin-right: 30px;
+      }
+    }
+    .fields-wrapper {
+      .input-wrapper {
+        display: flex;
+        flex-direction: row !important;
+      }
+    }
+  }
+}

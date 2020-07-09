@@ -1,0 +1,19 @@
+.section-wrapper {
+  background: #eeeeee;
+  margin: 0 auto;
+  height: auto;
+  .content-wrapper {
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+  }
+  padding: 80px 0;
+  @media (min-width: 768px) {
+    height: 100vh;
+  }
+}

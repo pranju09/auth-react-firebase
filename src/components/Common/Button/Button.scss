@@ -1,0 +1,23 @@
+.btn {
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-weight: bold;
+  &:focus {
+    border-color: inherit;
+    box-shadow: none;
+  }
+  &[disabled] {
+    cursor: not-allowed;
+  }
+  @media (min-width: 768px) {
+    font-size: 16px;
+    padding: 5px 12px;
+  }
+  &.login-btn {
+    padding: 6px 40px;
+    background: $blue;
+    color: white;
+    font-size: 14px;
+  }
+}

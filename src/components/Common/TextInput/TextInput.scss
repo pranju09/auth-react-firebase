@@ -1,0 +1,62 @@
+.text-input {
+  position: relative;
+  label {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    padding: 0;
+    color: #828282;
+    pointer-events: none;
+    transition: 0.5s;
+    z-index: 10;
+    margin-bottom: 0;
+  }
+  input.form-control {
+    width: 93%;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 3px !important;
+
+    &::-webkit-input-placeholder,
+    &:-moz-placeholder,
+    &:-ms-input-placeholder {
+      color: $gray-text;
+      font-size: 14px;
+    }
+
+    &:focus ~ label,
+    &:not([value=""]) ~ label {
+      top: -9px;
+      left: 10px;
+      font-size: 11px;
+      background-color: white;
+      padding-left: 5px;
+      padding-right: 5px;
+      height: none;
+    }
+
+    &:focus ~ label {
+      color: $blue;
+    }
+
+    &:focus,
+    &:valid ~ label,
+    &:not([value=""]) ~ label {
+      outline: none;
+      border-color: $blue;
+      box-shadow: none;
+      border-width: 1.1px;
+    }
+    &.haserror {
+      outline: none;
+      border-color: #ec4232;
+      box-shadow: none;
+      border-width: 1px;
+    }
+
+    &.haserror:focus ~ label {
+      color: #ec4232;
+    }
+  }
+}
