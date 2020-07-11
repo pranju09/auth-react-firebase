@@ -3,17 +3,6 @@ import "firebase/auth";
 import "firebase/firebase-firestore";
 import "firebase/storage";
 
-var firebaseConfig = {
-  apiKey: "AIzaSyAupQReRVGBE247TPk3ClaNOXBCbaGZZOI",
-  authDomain: "auth-react-firebase-69b74.firebaseapp.com",
-  databaseURL: "https://auth-react-firebase-69b74.firebaseio.com",
-  projectId: "auth-react-firebase-69b74",
-  storageBucket: "auth-react-firebase-69b74.appspot.com",
-  messagingSenderId: "1082933216521",
-  appId: "1:1082933216521:web:79be963f5e19bc33193fd8",
-  measurementId: "G-L2FY11XFW8"
-};
-
 // var firebaseConfig = {
 //   apiKey: process.env.REACT_APP_API_KEY,
 //   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
